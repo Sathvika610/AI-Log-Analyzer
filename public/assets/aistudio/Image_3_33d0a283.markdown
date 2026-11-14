@@ -1,0 +1,175 @@
+---
+name: LogLens AI
+colors:
+  surface: '#111827'
+  surface-dim: '#0f131d'
+  surface-bright: '#353944'
+  surface-container-lowest: '#0a0e18'
+  surface-container-low: '#171b26'
+  surface-container: '#1c1f2a'
+  surface-container-high: '#262a35'
+  surface-container-highest: '#313540'
+  on-surface: '#dfe2f1'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dfe2f1'
+  inverse-on-surface: '#2c303b'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#b9c7e0'
+  on-secondary: '#233144'
+  secondary-container: '#3c4a5e'
+  on-secondary-container: '#abb9d2'
+  tertiary: '#ffb783'
+  on-tertiary: '#4f2500'
+  tertiary-container: '#d97721'
+  on-tertiary-container: '#452000'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#d5e3fd'
+  secondary-fixed-dim: '#b9c7e0'
+  on-secondary-fixed: '#0d1c2f'
+  on-secondary-fixed-variant: '#3a485c'
+  tertiary-fixed: '#ffdcc5'
+  tertiary-fixed-dim: '#ffb783'
+  on-tertiary-fixed: '#301400'
+  on-tertiary-fixed-variant: '#703700'
+  background: '#0f131d'
+  on-background: '#dfe2f1'
+  surface-variant: '#313540'
+  card: '#1E293B'
+  text-primary: '#F8FAFC'
+  text-secondary: '#94A3B8'
+  critical-red: '#EF4444'
+  warning-amber: '#F59E0B'
+  success-emerald: '#10B981'
+typography:
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  code:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  code-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+* **Core Archetype:** High-Contrast Dark-Mode Developer Minimalism.
+* **Vibe:** Precise, technical, focused, and immersive. Designed specifically for deep coding sessions, incident triage, and fast-paced debugging environments.
+* **Key Principles:**
+  * **High-Signal Hierarchy:** Using precise chromatic accents against dark, layered charcoal surfaces to direct focus immediately to errors, stack traces, and actionable fixes.
+  * **Zero Visual Noise:** Clean separation of panels, hair-thin boundaries, and structured typography that handles dense data without feeling cluttered.
+  * **Tactile Precision:** Crisp geometry, subtle glows for active states, and instant visual feedback for developer actions like copying code blocks or filtering logs.
+
+## Colors
+* **Canvas Primary (`#0B0F19`):** Deep, immersive dark base that reduces eye strain during prolonged debugging sessions.
+* **Surface (`#111827`):** Elevated structural background used for primary layout zones and sidebars.
+* **Card & Panel (`#1E293B`):** Distinct container tone for grouping log snippets, AI insights, and actionable widgets.
+* **Borders (`#334155`):** Crisp structural dividing lines that delineate panels and controls without relying on heavy drop shadows.
+* **Text Primary (`#F8FAFC`):** High-contrast off-white for headers, code, and primary telemetry.
+* **Text Secondary (`#94A3B8`):** Muted slate for metadata, timestamps, and inactive navigational items.
+* **Accent Electric Indigo (`#6366F1`):** Purposeful interactive focus color for primary buttons, active tabs, and key triggers.
+* **Semantic Status:** 
+  * **Critical Red (`#EF4444`):** Fatal errors and crash states.
+  * **Warning Amber (`#F59E0B`):** Warnings and throttling alerts.
+  * **Success Emerald (`#10B981`):** Resolved statuses and successful build indicators.
+
+## Typography
+* **Inter** provides pristine legibility across all UI chrome, dashboards, and conversational panels.
+* **JetBrains Mono** is strictly reserved for log outputs, stack traces, terminal commands, and inline code snippets to maintain alignment and readability when scanning raw telemetry.
+* **Scale Discipline:** Large display sizes scale down gracefully on mobile viewports to prevent overflow while retaining strict modular hierarchy.
+
+## Layout & Spacing
+* **Layout Model:** Fluid multi-column workspace layout optimized for split-pane developer interfaces (AI Summary, Log Viewer, and Assistant Chat).
+* **Grid Structure:** Strict 8px baseline grid system governing all vertical rhythms, padding increments, and component alignments.
+* **Responsiveness:** Adapts from a single-column stacked view on mobile devices to a high-density 3-column layout on desktop viewports without sacrificing panel legibility.
+
+## Elevation & Depth
+* **Surface Layering:** Uses tonal shifts (`#0B0F19` canvas, `#111827` surface, `#1E293B` cards) rather than heavy drop shadows to create spatial separation.
+* **Low-Contrast Outlines:** Relies on crisp, hairline borders (`#334155`) to demarcate functional panels, interactive zones, and input containers.
+* **Subtle Glows:** Minimalist ambient glows using the Electric Indigo accent (`#6366F1`) or semantic colors (`#EF4444`) are reserved strictly for active states, critical errors, and modal focus.
+
+## Shapes
+* **Corner Radius:** Soft, utilitarian roundedness (`0.25rem` to `0.5rem` / `8px` to `12px`) for cards, inputs, and code blocks to maintain an engineered, modern developer tool aesthetic without excessive pill-shapes.
+* **Interactive Elements:** Buttons and badges use concise rounding (`6px`–`8px`) to fit cleanly within dense toolbar layouts and tables.
+
+## Components
+* **Buttons:** Solid Electric Indigo (`#6366F1`) for primary triggers with instant hover brightening; ghost buttons use subtle surface fills (`#1E293B`) with light borders.
+* **Input Fields:** Dark surface inputs (`#111827`) featuring `1px solid #334155` borders and a `2px` Electric Indigo focus ring.
+* **Log Viewer:** Monospace container utilizing alternating row tints and left-edge severity indicators (`#EF4444`, `#F59E0B`, `#10B981`) for instant visual scanning.
+* **Cards & Panels:** Structured containers (`#1E293B`) with clear header regions, metadata chips, and built-in copy-to-clipboard functionality for code patches.
+* **Badging & Status Pills:** Compact inline tags using semantic status colors with low-opacity background washes for quick severity identification (`FATAL`, `ERROR`, `WARN`, `INFO`).
